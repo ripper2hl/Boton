@@ -1,0 +1,11 @@
+{
+  "name": "boton",
+  "version": "0.0.1",
+  "description": "Esta es una aplicación para Firefox OS que muestra como integrar las analiticas de Flurry a nuestros proyectos basados en angularjs.",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "gulp"
+  },
+  "author": "Jesús Perales",
+  "license": "MIT"
+}
