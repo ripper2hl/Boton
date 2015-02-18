@@ -1,0 +1,25 @@
+{
+  "name": "boton",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ripper2hl/boton",
+  "authors": [
+    "Jesus Perales"
+  ],
+  "description": "Esta es una aplicación para Firefox OS que muestra como integrar las analiticas de Flurry a nuestros proyectos basados en angularjs.",
+  "main": "src/index.html",
+  "keywords": [
+    "FirefoxOS"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "building-blocks": "v2.0"
+  }
+}
