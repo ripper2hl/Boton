@@ -7,5 +7,10 @@
     "test": "gulp"
   },
   "author": "Jesús Perales",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "~3.8.11",
+    "gulp-inject": "~1.1.1",
+    "gulp-jshint": "~1.9.2"
+  }
 }
