@@ -1,0 +1,25 @@
+{
+  "name": "Boton",
+  "version": "0.0.1",
+  "description": "¿Tienes una gran adicción a presionar un botón?",
+  "launch_path": "/index.html",
+  "developer": {
+    "name": "Jesus Perales",
+    "url": "http://www.ingenieroperales.com"
+  },
+  "icons": {
+    "16": "/img/boton-16.png",
+    "32": "/img/boton-32.png",
+    "48": "/img/boton-48.png",
+    "60": "/img/boton-60.png",
+    "64": "/img/boton-64.png",
+    "90": "/img/boton-90.png",
+    "120": "/img/boton-120.png",
+    "128": "/img/boton-128.png",
+    "256": "/img/boton-256.png"
+  },
+  "default_locale": "es",
+  "orientation": [
+    "portrait"
+  ]
+}
