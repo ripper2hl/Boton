@@ -7,9 +7,6 @@
   <title>Boton</title>
 
   <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css" />
-  <!-- Analytics -->
-
-  <!-- Analytics -->
 </head>
 <body>
   <div class="container-fluid">
@@ -25,10 +22,16 @@
           como integrar las analiticas de Flurry a nuestros
           proyectos basados en angularjs.
         </div>
-        <button class="btn btn-primary btn-lg btn-block">Presioname</button>
+        <button class="btn btn-primary btn-lg btn-block"
+        analytics-on="click" analytics-event="boton presionado">
+          Presioname
+        </button>
       </div>
     </div>
   </div>
+  <!-- Analytics -->
+  <script src="flurry/flurry.js"></script>
+  <!-- Analytics -->
 
   <script src="lib/jquery/dist/jquery.js"></script>
   <script src="lib/angular/angular.js"></script>
