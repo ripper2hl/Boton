@@ -1,41 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="boton">
 <head>
   <!-- Author: Jesús Perales -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width">
   <title>Boton</title>
 
-  <!-- build:css lib.css -->
-  <!-- bower:css -->
-  <!-- endbower -->
-  <!-- endbuild -->
-
-  <!-- build:css me.css -->
-
-  <!-- inject:css -->
-  <!-- endinject -->
-
-  <!-- endbuild -->
-
-  <!-- build:js lib.js -->
-
-  <!-- bower:js -->
-  <!-- endbower -->
-
-  <!-- endbuild -->
-
-  <!-- build:js me.js-->
-
-  <!-- inject:js -->
-  <!-- endinject -->
-
-  <!-- endbuild -->
-
+  <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css" />
   <!-- Analytics -->
 
   <!-- Analytics -->
 </head>
 <body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+
+        <div class="page-header">
+          <h1>Botón</h1>
+        </div>
+
+        <div class="well">
+          Esta es una aplicación para Firefox OS que muestra
+          como integrar las analiticas de Flurry a nuestros
+          proyectos basados en angularjs.
+        </div>
+        <button class="btn btn-primary btn-lg btn-block">Presioname</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="lib/jquery/dist/jquery.js"></script>
+  <script src="lib/angular/angular.js"></script>
+  <script src="lib/waypoints/waypoints.js"></script>
+  <script src="lib/SHA-1/sha1.js"></script>
+  <script src="lib/angulartics/src/angulartics.js"></script>
+  <script src="lib/angulartics/src/angulartics-flurry.js"></script>
+  <script src="lib/bootstrap/dist/js/bootstrap.js"></script>
+
+  <script src="js/app.js"></script>
 </body>
 </html>

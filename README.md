@@ -16,4 +16,4 @@ Esta es una aplicación para Firefox OS que muestra como integrar las analiticas
 ##Librerias:
 * Angularjs.
 * Angulartics.
-* FirefoxOS Building Blocks.
+* Bootstrap.
