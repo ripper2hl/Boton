@@ -3,7 +3,7 @@
 
 ¿Tienes una gran adicción a presionar un botón?
 
-Esta es una aplicación para Firefox OS que muestra como integrar las analiticas de Flurry a nuestros proyectos basados en angularjs.
+Esta es una aplicación para Firefox OS que muestra como integrar las analiticas de Flurry a nuestros proyectos basados en Angularjs.
 
 
 ##Software necesario
