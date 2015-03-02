@@ -3,12 +3,7 @@
 
   var app = angular.module('boton',['angulartics','angulartics.flurry']);
 
-  app.config(['$analyticsProvider',function($analyticsProvider){
+  app.config(function(){
     FlurryAgent.startSession("");
-  }]);
-
-  app.controller('botonCtrl',['$scope',function($scope){
-
-  }]);
-
+  });
 })();

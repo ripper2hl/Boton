@@ -16,7 +16,8 @@
     "90": "/img/boton-90.png",
     "120": "/img/boton-120.png",
     "128": "/img/boton-128.png",
-    "256": "/img/boton-256.png"
+    "256": "/img/boton-256.png",
+    "512": "/img/boton-512.png"
   },
   "default_locale": "es",
   "orientation": [
