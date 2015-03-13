@@ -1,0 +1,56 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html ng-app="boton">
+<head>
+  <!-- Author: Jesús Perales -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Boton</title>
+<link rel="stylesheet" href="css/main.css" charset="utf-8">
+  <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css" />
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+
+        <div class="page-header">
+          <h1>Botón</h1>
+        </div>
+
+        <div class="well">
+          Esta es una aplicación para Firefox OS que muestra
+          como integrar las analiticas de Flurry a nuestros
+          proyectos basados en angularjs.
+        </div>
+        <button class="btn btn-primary btn-lg btn-block"
+        analytics-on="click" analytics-event="boton presionado">
+        Presioname
+      </button>
+    </div>
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="text-muted">
+      <a href="http://www.ingenieroperales.com/2015/01/30/estadisticas-en-aplicaciones-para-firefox-os/" target="_blank" >
+        Jesús Perales
+      </a>
+    </p>
+  </div>
+</footer>
+
+<!-- Analytics -->
+<script src="flurry/flurry.js"></script>
+<!-- Analytics -->
+
+<script src="lib/jquery/dist/jquery.js"></script>
+<script src="lib/angular/angular.js"></script>
+<script src="lib/angulartics/src/angulartics.js"></script>
+<script src="lib/angulartics/src/angulartics-flurry.js"></script>
+<script src="lib/bootstrap/dist/js/bootstrap.js"></script>
+
+<script src="js/app.js"></script>
+</body>
+</html>
