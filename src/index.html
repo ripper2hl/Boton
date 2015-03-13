@@ -4,9 +4,10 @@
 <head>
   <!-- Author: Jesús Perales -->
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Boton</title>
-
+<link rel="stylesheet" href="css/main.css" charset="utf-8">
   <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css" />
 </head>
 <body>
@@ -25,21 +26,31 @@
         </div>
         <button class="btn btn-primary btn-lg btn-block"
         analytics-on="click" analytics-event="boton presionado">
-          Presioname
-        </button>
-      </div>
+        Presioname
+      </button>
     </div>
   </div>
-  <!-- Analytics -->
-  <script src="flurry/flurry.js"></script>
-  <!-- Analytics -->
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="text-muted">
+      <a href="http://www.ingenieroperales.com/2015/01/30/estadisticas-en-aplicaciones-para-firefox-os/">
+        Jesús Perales
+      </a>
+    </p>
+  </div>
+</footer>
 
-  <script src="lib/jquery/dist/jquery.js"></script>
-  <script src="lib/angular/angular.js"></script>
-  <script src="lib/angulartics/src/angulartics.js"></script>
-  <script src="lib/angulartics/src/angulartics-flurry.js"></script>
-  <script src="lib/bootstrap/dist/js/bootstrap.js"></script>
+<!-- Analytics -->
+<script src="flurry/flurry.js"></script>
+<!-- Analytics -->
 
-  <script src="js/app.js"></script>
+<script src="lib/jquery/dist/jquery.js"></script>
+<script src="lib/angular/angular.js"></script>
+<script src="lib/angulartics/src/angulartics.js"></script>
+<script src="lib/angulartics/src/angulartics-flurry.js"></script>
+<script src="lib/bootstrap/dist/js/bootstrap.js"></script>
+
+<script src="js/app.js"></script>
 </body>
 </html>

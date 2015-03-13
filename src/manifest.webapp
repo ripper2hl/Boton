@@ -1,6 +1,6 @@
 {
   "name": "Boton",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "¿Tienes una gran adicción a presionar un botón?",
   "launch_path": "/index.html",
   "developer": {
